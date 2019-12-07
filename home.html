@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <title>Playground Homepage</title>
+
+</head>
+<body>
+    <div id="wrapper">
+        <section class="sidebar">
+            <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+            <link rel="stylesheet" href="/css/nav.css">
+            <script>
+                function openSlideMenu() {
+                    document.getElementById('menu').style.width = '250px';
+                    document.getElementById('content').style.marginLeft = '250px';
+                }
+                function closeSlideMenu() {
+                    document.getElementById('menu').style.width = '0';
+                    document.getElementById('content').style.marginLeft = '0';
+                }
+            </script>
+            <body>
+                <div id="navContent">
+                    <span class="slide">
+                        <a href="#" onclick="openSlideMenu()">
+                            <i class="fas fa-th-list"></i>
+                        </a>
+                    </span>
+                    <div id="menu" class="navContainer">
+                        <a href="#" class="close" onclick="closeSlideMenu()">
+                            <i class="fas fa-arrow-alt-circle-left"></i>
+                        </a>
+                        <a href="home.html">Home</a>
+                        <a href="about.html">About</a>
+                        <a href="locations.html">Locations</a>
+                        <a href="services.html">Services</a>
+                    </div>
+                </div>
+                <section class="main-content">
+                    <div class="main-content-title">
+                        <h1>Commercially</h1>
+                    </div>
+
+                </section>
+                
+              
+            
+
+</body>
+</html>
