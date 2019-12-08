@@ -1,0 +1,33 @@
+/* /////////////////////// */
+/* /////// Resets //////// */
+/* /////////////////////// */
+
+html {
+  box-sizing: border-box;
+}
+*, :before, *:after {
+  box-sizing: inherit;
+}
+
+#wrapper { 
+  list-style: none;
+  text-decoration: none;
+  padding: 30px;
+  font-size: 20px;
+  background-color: #222831;
+}
+
+body {
+  margin: 0;
+  font-family: 'Alegrya Sans', sans-serif;
+  overflow-x: hidden;
+}
+
+.navContainer a{
+    text-decoration: none;
+    color: #2BCED6;
+    float: right;
+    list-style: none;
+    font-size: 25px;
+    padding: 20px;
+}
