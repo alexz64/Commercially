@@ -2,6 +2,9 @@
 /* /////// Resets //////// */
 /* /////////////////////// */
 
+/*font-family: 'Raleway', sans-serif;
+font-family: 'Cormorant Garamond', serif;*/
+
 html {
   box-sizing: border-box;
 }
@@ -11,23 +14,26 @@ html {
 
 #wrapper { 
   list-style: none;
+  width: 100%;
+  float: right;
+  text-align: right;
   text-decoration: none;
-  padding: 30px;
+  padding: 10px;
   font-size: 20px;
-  background-color: #222831;
+  background-color: #393e46;
+  font-family: 'Raleway', sans-serif;
 }
 
 body {
   margin: 0;
-  font-family: 'Alegrya Sans', sans-serif;
   overflow-x: hidden;
+  background-color: #EEEEEE;
 }
 
 .navContainer a{
     text-decoration: none;
-    color: #2BCED6;
-    float: right;
+    color: #00adb5;
     list-style: none;
     font-size: 25px;
-    padding: 20px;
+    padding-left: 20px;
 }
