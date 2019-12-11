@@ -30,9 +30,10 @@ body {
   background-color: #EEEEEE;
 }
 .company {
-    color: #00adb5;
+    color: #222831;
     font-size: 25px;
     float: left;
+    text-shadow: -1px 0 #00adb5, 0 1px #EEEEEE, 1px 0 #EEEEEE, 0 -1px #EEEEEE;
 }
 .navContainer a{
     text-decoration: none;
@@ -40,4 +41,9 @@ body {
     list-style: none;
     font-size: 25px;
     padding-left: 20px;
+}
+.logo {
+    padding-top: 4px;
+    width: 20px;
+    float: left;
 }
