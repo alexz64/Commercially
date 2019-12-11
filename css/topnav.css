@@ -29,12 +29,7 @@ body {
   overflow-x: hidden;
   background-color: #EEEEEE;
 }
-.company {
-    color: #222831;
-    font-size: 25px;
-    float: left;
-    text-shadow: -1px 0 #00adb5, 0 1px #EEEEEE, 1px 0 #EEEEEE, 0 -1px #EEEEEE;
-}
+
 .navContainer a{
     text-decoration: none;
     color: #00adb5;
