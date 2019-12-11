@@ -42,3 +42,7 @@ body {
     width: 20px;
     float: left;
 }
+main .main-content-title {
+    font-family: 'Cormorant Garamond', serif;
+    color: #393e46;
+}
