@@ -4,13 +4,10 @@
 /*colors: EEEEEE - 2BCED6 - 00adb5 - 393e46 - 222831*/
 
 .services-grid {
-  /* display: grid; */
-  /* grid-template: 300px 300px 300px / 300px 300px 300px; */
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   align-items: center;
-  /* gap: 35px; */
   padding: 30px;
   color: antiquewhite;
   background-color: #EEEEEE;
@@ -34,14 +31,14 @@
 .services-promo {
   height: 20rem;
   padding-top: 1rem;
-  background-image: url('https://images.unsplash.com/photo-1516321497487-e288fb19713f?ixlib=rb-1.2.1');
+  background-image: url('../img/services-img2.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   text-align: center;
   color: #EEEEEE;
   font-family: 'Cormorant Garamond', serif;
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: bolder;
   text-decoration: underline;
 }
