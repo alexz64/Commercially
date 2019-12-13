@@ -3,22 +3,28 @@
 /* /////////////////////// */
 /*colors: EEEEEE - 2BCED6 - 00adb5 - 393e46 - 222831*/
 
-html {
-  box-sizing: border-box;
-}
-*, :before, *:after {
-  box-sizing: inherit;
-}
-
-ul {
-list-style: none;
-}
-
-a { 
-  text-decoration: none;
-  color: #333;
+.services-grid {
+  /* display: grid; */
+  /* grid-template: 300px 300px 300px / 300px 300px 300px; */
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  /* gap: 35px; */
+  padding: 30px;
+  color: antiquewhite;
+  background-color: #EEEEEE;
+  justify-content: space-around;
 }
 
-body {
-  margin: 0;
+.box {
+  border: solid #EEEEEE 2px;
+  background-color: #00adb5;
+  padding: 10px;
+  max-width: 500px;
+}
+
+.services-grid h2 {
+  font-weight: 800;
+  font-size: 1.6rem;
 }
