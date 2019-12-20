@@ -131,3 +131,69 @@ main .contact-info {
   font-size: 16px;
   resize: none;
 }
+
+.fnavContainer a {
+  display: block;
+  padding: 20px 30px;
+  font-size: 40px;
+  text-decoration: none;
+  color: #fff;
+
+}
+
+.fnavContainer a:hover {
+  color: #c3073f;
+  transition: 0.4s;
+}
+
+.fnavContainer .close {
+  /* position: absolute; */
+  top: 0;
+  right: 22px;
+  margin-left: 50px;
+  font-size: 0px;
+}
+
+.fslide a {
+  color: black;
+  font-size: 36px;
+}
+
+.fslide a:hover {
+  color: #c3073f;
+}
+
+#ftnavContent {
+  padding: 40px;
+  transition: padding 0.7s;
+  overflow: hidden;
+  width: 100%;
+}
+
+.fmain-content-contact {
+  display: block;
+  justify-content: center;
+  padding: 100px 100px;
+  font-size: 25px;
+  text-decoration: none;
+  color: black;
+}
+.footwrap {
+ display: block; 
+  text-align: center;
+  background-color: 393E46;
+  clear: both;
+  Float: right;
+
+}
+.nfootwraper {
+  display: none;
+  text-align: center;
+}
+
+@media only screen and (max-width: 340px) {
+  .footwrap {
+    display: none;
+    text-align: center;
+  }
+}
