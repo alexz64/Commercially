@@ -98,6 +98,10 @@ main .contact-form {
   width: 50%;
 }
 
+.contact-image {
+  width: 100%;
+}
+
 main .contact-title {
   text-align: center;
   font-size: 50px;
