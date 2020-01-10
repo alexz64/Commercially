@@ -7,6 +7,7 @@ font-family: 'Cormorant Garamond', serif;*/
 
 html {
   box-sizing: border-box;
+  background-color: #393e46;
 }
 *, :before, *:after {
   box-sizing: inherit;
@@ -192,11 +193,18 @@ main .contact-info {
   background-color: 393E46;
   clear: both;
   Float: right;
-
+  padding-bottom: 20px;
+  padding-left: 10px;
+  background-color: #393e46;
 }
 .nfootwraper {
   display: none;
   text-align: center;
+  /* background-color: #393e46; */
+}
+
+footer {
+  background-color: #393e46;
 }
 
 @media only screen and (max-width: 340px) {
@@ -376,6 +384,37 @@ section{
   color: #45e19f;
 }
 
+/* homepage */
+.homepage-promo {
+  height: 30rem;
+  padding-top: 2rem;
+  background-image: url('../img/homepage-image2.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  color: #EEEEEE;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.homepage-promo h1 {
+  font-weight: 900;
+  text-decoration: underline;
+  font-size: 4rem;
+}
+
+.homepage-promo p {
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.brands {
+  font-family: 'Cormorant Garamond', serif;
+  text-align: center;
+  font-size: 1.25rem;
+  padding-top: 5px;
+}
+
 @media screen and (min-width: 700px){
   .card-wrapper{
     flex-direction: row;
@@ -411,4 +450,3 @@ section{
     transform: scale(1.05)
   }
 }  
-
