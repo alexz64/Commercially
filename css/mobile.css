@@ -3,7 +3,7 @@
 /* /////////////////////// */
 /*colors: EEEEEE - 2BCED6 - 00adb5 - 393e46 - 222831*/
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 500px) {
   footer {
     display: none;
   }
