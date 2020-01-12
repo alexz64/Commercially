@@ -151,7 +151,7 @@ main .contact-info {
 }
 
 .fnavContainer a:hover {
-  color: #c3073f;
+  color: #EEEEEE;
   transition: 0.4s;
 }
 
@@ -169,7 +169,7 @@ main .contact-info {
 }
 
 .fslide a:hover {
-  color: #c3073f;
+  color: #EEEEEE;
 }
 
 #ftnavContent {
@@ -216,7 +216,7 @@ footer {
 
 /* about CSS */
 .navContainer a:hover{
-  color: red;
+  color: #EEEEEE;
 }
 
 .aboutHeading{
@@ -413,6 +413,17 @@ section{
   text-align: center;
   font-size: 1.25rem;
   padding-top: 5px;
+}
+.testimonials {
+  font-family: 'Cormorant Garamond', serif;
+  text-align: center;
+  font-size: 1.25rem;
+  padding-top: 5px;
+}
+
+.T {
+  display: inline-block;
+  width: 20rem;
 }
 
 @media screen and (min-width: 700px){
