@@ -20,7 +20,7 @@ html {
   text-align: right;
   text-decoration: none;
   padding: 10px;
-  font-size: 30px;
+  font-size: 20px;
   background-color: #393e46;
   font-family: 'Raleway', sans-serif;
   position: fixed;
@@ -32,12 +32,11 @@ body {
   background-color: #EEEEEE;
 }
 
-.navContainer a{
+.navContainer a {
     text-decoration: none;
     color: #00adb5;
     list-style: none;
-    font-size: 25
-    px;
+    font-size: 25px;
     padding-left: 20px;
 }
 
@@ -46,7 +45,7 @@ body {
 }
 .logo {
     padding-top: 4px;
-    width: 30px;
+    width: 20px;
     float: left;
 }
 
@@ -126,7 +125,7 @@ main .location-title {
   font-family: 'Cormorant Garamond', serif;
   color: black;
   font-weight: 800;
- <!-- --  font-size: 1.75rem;
+  font-size: 1.75rem;
   padding-top: 45px;
 }
 .locations-promo {
@@ -134,10 +133,13 @@ padding-top: 0px;
 margin-top: 40px;
 }
 .locations-image > img {
+<<<<<<< HEAD
   vertical-align:top;/* here */
+=======
+>>>>>>> a6baa1b38a9905184a6832371763e012de070b37
   max-width: 100%;
   max-height: 300px;
-  <!-- width: 80%;
+  width: 80%;
   max-height:300 px;
   display: block;
   padding: 60 px;
@@ -146,8 +148,11 @@ margin-top: 40px;
   background-color: red;
   flex: 2 0 0%;
   text-align: center;
+<<<<<<< HEAD
   
   /* and eventually */
+=======
+>>>>>>> a6baa1b38a9905184a6832371763e012de070b37
   margin: auto 0;
 }
 .lotext {
@@ -172,12 +177,17 @@ margin-top: 40px;
   font-size: 2.5rem;
   font-weight: bolder;
   text-decoration: underline;
+<<<<<<< HEAD
   background-color: blue;
+=======
+  background color: blue;
+>>>>>>> a6baa1b38a9905184a6832371763e012de070b37
   display: flex;
   flex-direction: row-reverse;
   text-align: center;
   justify-content: space-between;
 }
+
 .location-container > .image {
   flex: 1 0 10%;
   text-align:right;    
@@ -285,13 +295,17 @@ footer {
 }
 .map box {
   position: relative; 
+<<<<<<< HEAD
   align: center;
+=======
+  align-items: center;
+>>>>>>> a6baa1b38a9905184a6832371763e012de070b37
   margin: 40 auto; 
   padding-left: 40px; 
   width: 600px; 
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; 
   font-size: 13px; 
-  background-color: #f7f7f7;"
+  background-color: #f7f7f7;
 }
 
 @media only screen and (max-width: 340px) {
