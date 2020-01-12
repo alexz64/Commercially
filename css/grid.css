@@ -42,3 +42,53 @@
   font-weight: bolder;
   text-decoration: underline;
 }
+.location-grid {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: stretch;
+  padding: 30px;
+  color: antiquewhite;
+  background-color: #EEEEEE;
+  justify-content: space-around;
+  font-family: 'Raleway', sans-serif;
+}
+
+.lopic box { 
+  border: solid #EEEEEE 2px;
+  background-color: #00adb5;
+  padding: 10px;
+  max-width: 500px;
+}
+.locmap box {
+  border: solid #EEEEEE 2px;
+  background-color: #00adb5;
+  padding: 10px;
+  max-width: 500px;
+}
+.loctimes box {
+  border: solid #EEEEEE 2px;
+  background-color: #00adb5;
+  padding: 10px;
+  max-width: 500px;
+
+.location-grid h2 {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 800;
+  font-size: 1.75rem;
+}
+
+.location-promo {
+  height: 20rem;
+  padding-top: 1rem;
+  background-image: url('../img/location map.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  color: #EEEEEE;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 2.5rem;
+  font-weight: bolder;
+  text-decoration: underline;
+}
