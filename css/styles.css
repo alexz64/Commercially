@@ -95,16 +95,29 @@ input[type=submit]:hover {
 }
 
 main .contact-form {
-  border-radius: 5px;
   background-color: #EEEEEE;
   margin-left: auto;
   margin-right: auto;
   display: block;
-  width: 50%;
+  margin: 20px;
+  padding: 20px;
+}
+
+.contact-main {
+  /* height: 30rem; */
+  padding-top: 2rem;
+  background-image: url('img/contact_page2.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  color: #EEEEEE;
+  font-family: 'Cormorant Garamond', serif;
 }
 
 .contact-image {
   width: 100%;
+
 }
 main .location-title {
   text-align: center;
@@ -213,7 +226,7 @@ main .contact-info {
 }
 
 .fnavContainer a:hover {
-  color: #c3073f;
+  color: #EEEEEE;
   transition: 0.4s;
 }
 
@@ -231,7 +244,7 @@ main .contact-info {
 }
 
 .fslide a:hover {
-  color: #c3073f;
+  color: #EEEEEE;
 }
 
 #ftnavContent {
@@ -288,7 +301,7 @@ footer {
 
 /* about CSS */
 .navContainer a:hover{
-  color: red;
+  color: #EEEEEE;
 }
 
 .aboutHeading{
@@ -489,6 +502,28 @@ section{
   text-align: center;
   font-size: 1.25rem;
   padding-top: 5px;
+}
+.testimonials {
+  font-family: 'Cormorant Garamond', serif;
+  text-align: center;
+  font-size: 1.25rem;
+  padding-top: 5px;
+  margin-top: -11rem;
+
+}
+
+.T {
+  display: inline-block;
+  width: 15rem;
+  padding: 1rem;
+  background-color: #00adb5;
+  margin: 1rem 0;
+  color: #eee;
+  font-style: 1.4rem;
+  transition: all .5s;
+}
+.T_Person {
+  color: #333;
 }
 
 @media screen and (min-width: 700px){
