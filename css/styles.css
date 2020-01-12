@@ -129,25 +129,25 @@ main .location-title {
  <!-- --  font-size: 1.75rem;
   padding-top: 45px;
 }
-<!-- .locations-promo {
+.locations-promo {
 padding-top: 0px; 
 margin-top: 40px;
-} -->
+}
 .locations-image > img {
-  <!-- vertical-align:top;/* here */ -->
+  vertical-align:top;/* here */
   max-width: 100%;
   max-height: 300px;
   <!-- width: 80%;
   max-height:300 px;
   display: block;
-  padding: 60 px; -->
+  padding: 60 px;
 }
 .location-container > .text {
   background-color: red;
   flex: 2 0 0%;
   text-align: center;
   
-  <!-- /* and eventually */ -->
+  /* and eventually */
   margin: auto 0;
 }
 .lotext {
@@ -162,7 +162,7 @@ margin-top: 40px;
   height: 20rem;
   padding-top: 1rem;
   background-image: url('../img/location.jpg');
-  background-image: img/Warren Street.jpg
+  /* background-image: img/Warren Street.jpg; */
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -172,11 +172,11 @@ margin-top: 40px;
   font-size: 2.5rem;
   font-weight: bolder;
   text-decoration: underline;
-  <!-- background color: blue;
+  background-color: blue;
   display: flex;
-  flex direction: row-reverse;
+  flex-direction: row-reverse;
   text-align: center;
-  justify content: space-between; -->
+  justify-content: space-between;
 }
 .location-container > .image {
   flex: 1 0 10%;
@@ -285,7 +285,7 @@ footer {
 }
 .map box {
   position: relative; 
-  allign: center;
+  align: center;
   margin: 40 auto; 
   padding-left: 40px; 
   width: 600px; 
