@@ -112,14 +112,11 @@ main .location-title {
   font-size: 50px;
   font-family: 'Cormorant Garamond', serif;
   color: black;
-  font-weight: 800;
- <!-- --  font-size: 1.75rem;
-  padding-top: 45px;
-}
-<!-- .locations-promo {
-padding-top: 0px; 
-margin-top: 40px;
-} -->
+  font-weight: 800; }
+ 
+
+
+    
 .locations-image > img {
   <!-- vertical-align:top;/* here */ -->
   max-width: 100%;
