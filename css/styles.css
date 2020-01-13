@@ -20,7 +20,7 @@ html {
   text-align: right;
   text-decoration: none;
   padding: 10px;
-  font-size: 30px;
+  font-size: 20px;
   background-color: #393e46;
   font-family: 'Raleway', sans-serif;
   position: fixed;
@@ -32,12 +32,11 @@ body {
   background-color: #EEEEEE;
 }
 
-.navContainer a{
+.navContainer a {
     text-decoration: none;
     color: #00adb5;
     list-style: none;
-    font-size: 25
-    px;
+    font-size: 25px;
     padding-left: 20px;
 }
 
@@ -46,7 +45,7 @@ body {
 }
 .logo {
     padding-top: 4px;
-    width: 30px;
+    width: 20px;
     float: left;
 }
 
@@ -96,34 +95,58 @@ input[type=submit]:hover {
 }
 
 main .contact-form {
-  border-radius: 5px;
   background-color: #EEEEEE;
   margin-left: auto;
   margin-right: auto;
   display: block;
-  width: 50%;
+  margin: 20px;
+  padding: 20px;
+}
+
+.contact-main {
+  /* height: 30rem; */
+  padding-top: 2rem;
+  background-image: url('img/contact_page2.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  color: #EEEEEE;
+  font-family: 'Cormorant Garamond', serif;
 }
 
 .contact-image {
   width: 100%;
+
 }
 main .location-title {
   text-align: center;
   font-size: 50px;
   font-family: 'Cormorant Garamond', serif;
   color: black;
+<<<<<<< HEAD
   font-weight: 800; }
  
 
 
     
+=======
+  font-weight: 800;
+  font-size: 1.75rem;
+  padding-top: 45px;
+}
+<!-- .locations-promo {
+padding-top: 0px; 
+margin-top: 40px;
+} -->
+>>>>>>> a6baa1b38a9905184a6832371763e012de070b37
 .locations-image > img {
-  <!-- vertical-align:top;/* here */ -->
   max-width: 100%;
   max-height: 300px;
-  <!-- width: 80%;
+  width: 80%;
   max-height:300 px;
   display: block;
+<<<<<<< HEAD
   padding: 60 px; -->
 
 }
@@ -133,13 +156,14 @@ main .location-title {
   flex: 2 0 0%;
   text-align: center;
   margin: auto 0;
+=======
+  padding: 60 px;
+>>>>>>> a6baa1b38a9905184a6832371763e012de070b37
 }
 .location-container > .text {
   background-color: red;
   flex: 2 0 0%;
   text-align: center;
-  
-  <!-- /* and eventually */ -->
   margin: auto 0;
 }
 .lotext {
@@ -164,12 +188,13 @@ main .location-title {
   font-size: 2.5rem;
   font-weight: bolder;
   text-decoration: underline;
-  <!-- background color: blue;
+  background color: blue;
   display: flex;
   flex direction: row-reverse;
   text-align: center;
   justify content: space-between; -->
 }
+
 .location-container > .image {
   flex: 1 0 10%;
   text-align:right;    
@@ -220,7 +245,7 @@ main .contact-info {
 }
 
 .fnavContainer a:hover {
-  color: #c3073f;
+  color: #EEEEEE;
   transition: 0.4s;
 }
 
@@ -238,7 +263,7 @@ main .contact-info {
 }
 
 .fslide a:hover {
-  color: #c3073f;
+  color: #EEEEEE;
 }
 
 #ftnavContent {
@@ -277,13 +302,13 @@ footer {
 }
 .map box {
   position: relative; 
-  allign: center;
+  align-items: center;
   margin: 40 auto; 
   padding-left: 40px; 
   width: 600px; 
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; 
   font-size: 13px; 
-  background-color: #f7f7f7;"
+  background-color: #f7f7f7;
 }
 
 @media only screen and (max-width: 340px) {
@@ -295,7 +320,7 @@ footer {
 
 /* about CSS */
 .navContainer a:hover{
-  color: red;
+  color: #EEEEEE;
 }
 
 .aboutHeading{
@@ -496,6 +521,28 @@ section{
   text-align: center;
   font-size: 1.25rem;
   padding-top: 5px;
+}
+.testimonials {
+  font-family: 'Cormorant Garamond', serif;
+  text-align: center;
+  font-size: 1.25rem;
+  padding-top: 5px;
+  margin-top: -11rem;
+
+}
+
+.T {
+  display: inline-block;
+  width: 15rem;
+  padding: 1rem;
+  background-color: #00adb5;
+  margin: 1rem 0;
+  color: #eee;
+  font-style: 1.4rem;
+  transition: all .5s;
+}
+.T_Person {
+  color: #333;
 }
 
 @media screen and (min-width: 700px){
