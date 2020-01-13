@@ -125,6 +125,14 @@ main .location-title {
   max-height:300 px;
   display: block;
   padding: 60 px; -->
+
+}
+
+.locations-container {
+  background-color: 31cbdc;
+  flex: 2 0 0%;
+  text-align: center;
+  margin: auto 0;
 }
 .location-container > .text {
   background-color: red;
