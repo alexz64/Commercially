@@ -7,24 +7,4 @@
   footer {
     display: none;
   }
-  .navContainer a:not(:first-child) {display: none;}
-  .navContainer a.icon {
-    float: right;
-    display: block;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .navContainer.responsive {position: relative;}
-  .navContainer.responsive a.icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  .navContainer.responsive a {
-    float: none;
-    display: block;
-    text-align: center;
-  }
-  
 }
