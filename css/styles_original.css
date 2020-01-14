@@ -133,10 +133,7 @@ padding-top: 0px;
 margin-top: 40px;
 }
 .locations-image > img {
-<<<<<<< HEAD
-  vertical-align:top;/* here */
-=======
->>>>>>> a6baa1b38a9905184a6832371763e012de070b37
+  vertical-align: top;/* here */
   max-width: 100%;
   max-height: 300px;
   width: 80%;
@@ -148,11 +145,8 @@ margin-top: 40px;
   background-color: red;
   flex: 2 0 0%;
   text-align: center;
-<<<<<<< HEAD
   
   /* and eventually */
-=======
->>>>>>> a6baa1b38a9905184a6832371763e012de070b37
   margin: auto 0;
 }
 .lotext {
@@ -177,11 +171,7 @@ margin-top: 40px;
   font-size: 2.5rem;
   font-weight: bolder;
   text-decoration: underline;
-<<<<<<< HEAD
   background-color: blue;
-=======
-  background color: blue;
->>>>>>> a6baa1b38a9905184a6832371763e012de070b37
   display: flex;
   flex-direction: row-reverse;
   text-align: center;
@@ -293,13 +283,9 @@ main .contact-info {
 footer {
   background-color: #393e46;
 }
-.map box {
+.mapbox {
   position: relative; 
-<<<<<<< HEAD
-  align: center;
-=======
   align-items: center;
->>>>>>> a6baa1b38a9905184a6832371763e012de070b37
   margin: 40 auto; 
   padding-left: 40px; 
   width: 600px; 
