@@ -118,12 +118,16 @@ main .contact-form {
 .contact-image {
   width: 100%;
 
+  .location-image {
+    width: 100%;
+
 }
 main .location-title {
   text-align: center;
   font-size: 50px;
   font-family: 'Cormorant Garamond', serif;
-  color: black;
+  text-color: black;
+  background-color: 393e46;
 <<<<<<< HEAD
   font-weight: 800; }
  
@@ -145,6 +149,9 @@ margin-top: 40px;
   max-height: 100px;
   width: 80%;
   display: block;
+  float: left;
+  
+
 <<<<<<< HEAD
   padding: 60 px; -->
 
@@ -168,6 +175,7 @@ margin-top: 40px;
   font-size: 2.5rem;
   font-weight: bolder;
   text-decoration: underline;
+  padding-top: 100px;
   
 }
 .lotext {
@@ -177,8 +185,9 @@ margin-top: 40px;
   font-size: 2.5rem;
   font-weight: bolder;
   text-decoration: underline;
+  padding-top: 60px;
 } 
-.location-container {
+<!-- .location-container {
   height: 20rem;
   padding-top: 1rem;
   background-image: url('../img/location.jpg');
@@ -187,7 +196,7 @@ margin-top: 40px;
   background-position: center;
   background-size: cover;
   text-align: center;
-  color: #EEEEEE;
+  color: 31cbd3;
   font-family: 'Cormorant Garamond', serif;
   font-size: 2.5rem;
   font-weight: bolder;
@@ -197,12 +206,12 @@ margin-top: 40px;
   flex direction: row-reverse;
   text-align: center;
   justify content: space-between; -->
-}
+} -->
 
-.location-container > .image {
+<!-- .location-container > .image {
   flex: 1 0 10%;
   text-align:right;    
-}
+} -->
 
 
 main .contact-title {
