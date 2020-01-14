@@ -182,7 +182,7 @@ margin-top: 40px;
   text-decoration: underline;
   padding-top: 60px;
 } 
-<!-- .location-container {
+.location-container {
   height: 20rem;
   padding-top: 1rem;
   background-image: url('../img/location.jpg');
@@ -203,10 +203,10 @@ margin-top: 40px;
   justify-content: space-between;
 }
 
-<!-- .location-container > .image {
+ .location-container > .image {
   flex: 1 0 10%;
   text-align:right;    
-} -->
+} 
 
 
 main .contact-title {
@@ -587,4 +587,6 @@ section{
   .card:hover{
     transform: scale(1.05)
   }
-}  
+
+ 
+  
