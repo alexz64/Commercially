@@ -48,7 +48,10 @@ body {
     width: 20px;
     float: left;
 }
-
+/* Hide the link that should open and close the top nav on small screens */
+.navContainer .icon {
+  display: none;
+}
 
 main .main-content-title {
     font-family: 'Cormorant Garamond', serif;
