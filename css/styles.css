@@ -48,7 +48,10 @@ body {
     width: 20px;
     float: left;
 }
-
+/* Hide the link that should open and close the top nav on small screens */
+.navContainer .icon {
+  display: none;
+}
 
 main .main-content-title {
     font-family: 'Cormorant Garamond', serif;
@@ -128,8 +131,9 @@ main .contact-form {
 
 .contact-image {
   width: 100%;
+}
 
-  .location-image {
+.location-image {
     width: 100%;
 
 }
@@ -137,15 +141,8 @@ main .location-title {
   text-align: center;
   font-size: 50px;
   font-family: 'Cormorant Garamond', serif;
-  text-color: black;
+  color: black;
   background-color: 393e46;
-<<<<<<< HEAD
-  font-weight: 800; }
- 
-
-
-    
-=======
   font-weight: 800;
   font-size: 1.75rem;
   padding-top: 45px;
@@ -154,7 +151,6 @@ main .location-title {
 padding-top: 0px; 
 margin-top: 40px;
 } -->
->>>>>>> a6baa1b38a9905184a6832371763e012de070b37
 .locations-image > img {
   max-width: 100%;
   max-height: 100px;
@@ -163,19 +159,7 @@ margin-top: 40px;
   float: left;
   
 
-<<<<<<< HEAD
-  padding: 60 px; -->
-
-}
-
-.locations-container {
-  background-color: 31cbdc;
-  flex: 2 0 0%;
-  text-align: center;
-  margin: auto 0;
-=======
   padding: 60 px;
->>>>>>> a6baa1b38a9905184a6832371763e012de070b37
 }
 .location-container > .text {
   background-color: blue;
@@ -202,7 +186,7 @@ margin-top: 40px;
   height: 20rem;
   padding-top: 1rem;
   background-image: url('../img/location.jpg');
-  background-image: img/Warren Street.jpg
+  background-image: url('../img/Warren\ Street.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -212,12 +196,12 @@ margin-top: 40px;
   font-size: 2.5rem;
   font-weight: bolder;
   text-decoration: underline;
-  background color: blue;
+  background-color: blue;
   display: flex;
-  flex direction: row-reverse;
+  flex-direction: row-reverse;
   text-align: center;
-  justify content: space-between; -->
-} -->
+  justify-content: space-between;
+}
 
 <!-- .location-container > .image {
   flex: 1 0 10%;
