@@ -93,7 +93,18 @@ input[type=submit]:hover {
   color: #393e46;
   font-family: 'Cormorant Garamond', serif;
 }
-
+.customize_change { 
+  list-style: none;
+  width: 100%;
+  float: right;
+  text-align: right;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 30px;
+  background-color: #393e46;
+  font-family: 'Raleway', sans-serif;
+  position: fixed;
+}
 main .contact-form {
   background-color: #EEEEEE;
   margin-left: auto;
