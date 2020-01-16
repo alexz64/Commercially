@@ -93,4 +93,34 @@
   font-size: 2.5rem;
   font-weight: bolder;
   text-decoration: underline;
+<<<<<<< HEAD
 } -->
+=======
+}
+.testimonials {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: stretch;
+  padding: 30px;
+  justify-content: space-evenly;
+  font-family: 'Cormorant Garamond', serif;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  background-image: url('../img/happy_clients.jpg');
+  background-position: center;
+  background-size: cover;
+}
+.T {
+  padding: 20px;
+  flex-direction: row;
+  max-width: 500px;
+  align-content: center;
+  background-color: #00adb5;
+  margin: 1rem 0;
+  color: #eee;
+  transition: all .5s;
+  height: 130px;
+}
+>>>>>>> bf58a653547d2f0737b6c7778031388c649868a0
