@@ -125,8 +125,11 @@ html {
     width: 100%;
 
 }
+.locations {
+    background-color: #393e46;
+  }
 main .location-title {
-  text-align: center;
+  /* text-align: center;
   font-size: 50px;
   font-family: 'Cormorant Garamond', serif;
   color: black;
@@ -134,21 +137,46 @@ main .location-title {
   font-weight: 800;
   font-weight: 800;
   font-size: 1.75rem;
-  padding-top: 45px;
+  padding-top: 45px; */
+
+  font-family: 'Cormorant Garamond', serif;
+  color: #393e46;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 50%;
 }
 .locations-promo {
 padding-top: 0px; 
 margin-top: 40px;
 }
-
+.location-promos {
+    height: 20rem;
+    padding-top: 1rem;
+    background-image: url('../img/location map.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #EEEEEE;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    text-decoration: underline;
+    background-color: #2BCED6;
+}
 .locations-image > img {
-  max-width: 100%;
+  /* max-width: 100%;
   max-height: 100px;
   width: 80%;
   display: block;
   float: left;
-  padding: 60 px;
+  padding: 60 px; */
 
+  height: 30px;
+  width: 70%;
+  padding: 50px 30px;
+  background-color: #2BCED6;
 }
 
 .locations-container {
@@ -157,10 +185,11 @@ margin-top: 40px;
   text-align: center;
   margin: auto 0;
   padding: 60 px;
+  justify-content: space-evenly;
+  font-family: 'Raleway', sans-serif;
 
 }
 .location-container > .text {
-  background-color: blue;
   flex: 2 0 0%;
   text-align: center;
   margin: auto 0;
@@ -194,7 +223,6 @@ margin-top: 40px;
   font-size: 2.5rem;
   font-weight: bolder;
   text-decoration: underline;
-  background-color: blue;
   display: flex;
   flex-direction: row-reverse;
   text-align: center;
@@ -205,7 +233,20 @@ margin-top: 40px;
   flex: 1 0 10%;
   text-align:right;    
 }
-
+.locations-wrapper1 {
+    font-family: 'Cormorant Garamond', serif;
+    color: #393e46; 
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+   width: 50%;
+   position: absolute;
+         height: 244px;
+         width: 175px;
+         background:no repeat;
+         bottom: 0; 
+         left:0px;
+}
   
   
   main .contact-title {
