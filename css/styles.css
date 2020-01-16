@@ -120,435 +120,12 @@ html {
   
   .contact-image {
     width: 100%;
-<<<<<<< HEAD
-  
-<<<<<<< HEAD
-
-  padding: 60 px;
-}
-//////////////////////////////////////
-           begin locations
-/////////////////////////////////////
-main .main-content-title {
-  font-family: 'Cormorant Garamond', serif;
-  color: #393e46;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  width: 50%;
-}
-.locations {
-  background-color: color: #393e46;;
-}
-.contact-main {
-  /* height: 30rem; */
-  padding-top: 2rem;
-  background-image: url('img/contact_page2.jpg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  text-align: center;
-  color: #EEEEEE;
-  font-family: 'Cormorant Garamond', serif;
-}
-
-main .main-location-title {
-  font-family: 'Cormorant Garamond', serif;
-  color: #393e46;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  width: 50%;
-}
-.locationmap-image {
-  width: 100%;
-.location-promos {
-  height: 20rem;
-  padding-top: 1rem;
-  background-image: url('../img/location map.jpg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  text-align: center;
-  color: #EEEEEE;
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 2.5rem;
-  font-weight: bolder;
-  text-decoration: underline;
-  background-color: 2BCED6;
-}
-<!-- .locations-promo-picture {
-  /* height: 30rem; */
-  padding-top: 2rem;
-  background-image: url("img/location.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  text-align: center;
-  color: #EEEEEE;
-  font-family: 'Cormorant Garamond', serif;
-} -->
-
-.locations-image {
-  <!-- yes -->
-  height; 30px;
-  width: 70%;
-  padding:px 50px 30px;
-  background-color; 2BCED6;
-}
-<!--.locations-promo-wrapper {
-  /* height: 30rem; */
-  padding-top: 4rem; -->
-  <!-- background-image: url('img/contact_page2.jpg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  text-align: center;
-  
-  color: #EEEEEE;
-  font-family: 'Cormorant Garamond', serif;
-}  -->
-.main-location-title {
-  font-family: 'Cormorant Garamond', serif;
-  color: #393e46;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  width: 50%;
-} 
-///////////////////////
-#wrapper { 
-  list-style: none;
-  width: 100%;
-  float: right;
-  text-align: right;
-  text-decoration: none;
-  padding: 10px;
-  font-size: 20px;
-  background-color: #393e46;
-  font-family: 'Raleway', sans-serif;
-  position: fixed;
-}
-
-<!-- .locations wrapper1 { 
-  list-style: none;
-  width: 100%;
-  float: right;
-  text-align: right;
-  text-decoration: none;
-  padding: 10px;
-  font-size: 20px;
-  background-color: #393e46;
-  font-family: 'Raleway', sans-serif;
-  position: fixed;
-} -->
-.locations wrapper1 {
-  font-family: 'Cormorant Garamond', serif;
-   color: #393e46; 
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  width: 50%;
-  position: absolute;
-        height: 244px;
-        width: 175px;
-        background:no repeat;
-        bottom: 0; 
-        left:0px;
-  }
-
-////////////////////////
-.location-title {
-  text-align: left;
-  font-size: 60px;
-  font-family: 'Cormorant Garamond', serif;
-  color: black;
-  padding-top: 20px;
-}
-
-.location-info {
-  font-family: 'Cormorant Garamond', serif;
-  text-align: right;
-
-}
-
-.location-wrapper > .text { 
-  background-color: blue;
-  flex: 2 0 0%;
-  text-align: center;
-  margin: auto 0;
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 2.5rem;
-  font-weight: bolder;
-  text-decoration: underline;
-  padding-top: 100px;
-}
-
-
-.locations1 {
-  width:900px; 
-  height: 100px; 
-  list-style: none;
- width: 100%;
-  float: right;
-  text-align: center;
-  text-decoration: none;
-  padding: 40px;
- overflow: hidden;
-  font-size: 60px;
-  background-color: #222831;
-  font-family: 'Raleway', sans-serif;
-  position: fixed;
-  overflow: hidden;
-
-}
-
-.div2{
-  float: left;
-  padding: 40  0px;
-}
-
-.menu {
-  float: right;
-  padding: 40;
-  font-size: 20px;
-  background-color: #393e46;
-  font-family: 'Raleway', sans-serif;
-}
-.first-box {
-  width: 900px; 
- float: left; 
-  background: 2BCED6; 
-  height: 130px;
-  margin: 50px;
-  padding-top: 20px;
-}
-.locations image {
-
-}
-
-.first-box p {
-  color: #ffffff;
-  padding-left: 80px;
-  padding-top: 50px;
-}
-<!-- .location-hours-box -->
-<!-- > img  -->
-{
-  <!-- max-width: 100%;
-  max-height: 100px;
-  width: 80%;
-  display: block;
-  float: left;
-  padding: 60 px; -->
-  width:300px; 
-  height: 150px; 
-  float:left; 
-  background: ocean-blue;
-  margin: 50px
-}
-.location-hours-box p {
-  color: #ffffff;
-  padding-left: 110px;
-  padding-top: 50px;
-}
-  
-.lotext {
-  text-align: center;
-  color: #EEEEEE;
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 2.5rem;
-  font-weight: bolder;
-  text-decoration: underline;
-  padding-top: 60px;
-} 
- <!-- .location-container {
-  height: 20rem;
-  padding-top: 1rem;
-  background-image: url('../img/location.jpg');
-  background-image: url('../img/Warren\ Street.jpg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  text-align: center;
-  color: 31cbd3;
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 2.5rem;
-  font-weight: bolder;
-  text-decoration: underline;
-  background-color: blue;
-  display: flex;
-  flex-direction: row-reverse;
-  text-align: center;
-  justify-content: space-between;
-} 
-
- .location-container > .image {
-  flex: 1 0 10%;
-  text-align:right;    
-} 
-
-//////////////////////////////////////
-/////////////////////////////////////
-////////////////////////////////////
-
-main .contact-title {
-  text-align: center;
-  font-size: 50px;
-  font-family: 'Cormorant Garamond', serif;
-  color: black;
-  padding-top: 20px;
-} -->
-
-main .contact-info {
-  font-family: 'Cormorant Garamond', serif;
-  text-align: center;
-
-}
-.contact-hours li {
-  list-style-type: none;
-}
-
-.contact-phone {
-  font-size: 20px;
-  color: #00adb5;
-  font-weight: bolder;
-} 
-.textarea {
-  width: 100%;
-  height: 150px;
-  padding: 12px 20px;
-  box-sizing: border-box;
-  border: 2px solid #ccc;
-  border-radius: 4px;
-  background-color: #f8f8f8;
-  font-size: 16px;
-  resize: none;
-}
-
-.fnavContainer a {
-  display: block;
-  padding: 20px 30px;
-  font-size: 40px;
-  text-decoration: none;
-  color: #fff;
-
-}
-
-.fnavContainer a:hover {
-  color: #EEEEEE;
-  transition: 0.4s;
-}
-
-.fnavContainer .close {
-  /* position: absolute; */
-  top: 0;
-  right: 22px;
-  margin-left: 50px;
-  font-size: 0px;
-}
-
-.fslide a {
-  color: black;
-  font-size: 36px;
-}
-
-.fslide a:hover {
-  color: #EEEEEE;
-}
-
-#ftnavContent {
-  padding: 40px;
-  transition: padding 0.7s;
-  overflow: hidden;
-  width: 100%;
-}
-
-.fmain-content-contact {
-  display: block;
-  justify-content: center;
-  padding: 100px 100px;
-  font-size: 25px;
-  text-decoration: none;
-  color: black;
-}
-.footwrap {
- display: block; 
-  text-align: center;
-  background-color: 393E46;
-  clear: both;
-  Float: right;
-  padding-bottom: 20px;
-  padding-left: 10px;
-  background-color: #393e46;
-}
-.nfootwraper {
-  display: none;
-  text-align: center;
-  /* background-color: #393e46; */
-}
-
-footer {
-  background-color: #393e46;
-}
-.map box {
-  position: relative; 
-  align-items: center;
-  margin: 40 auto; 
-  padding-left: 40px; 
-  width: 600px; 
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; 
-  font-size: 13px; 
-  background-color: #f7f7f7;
-}
-
-@media only screen and (max-width: 340px) {
-=======
-    .location-image {
-      width: 100%;
-  
-  }
-  main .location-title {
-    text-align: center;
-    font-size: 50px;
-    font-family: 'Cormorant Garamond', serif;
-    text-color: black;
-    background-color: 393e46;
-  <<<<<<< HEAD
-    font-weight: 800; }
-   
-  
-  
-      
-  =======
-    font-weight: 800;
-    font-size: 1.75rem;
-    padding-top: 45px;
-  }
-  .locations-promo {
-  padding-top: 0px; 
-  margin-top: 40px;
-  }
-  >>>>>>> a6baa1b38a9905184a6832371763e012de070b37
-  .locations-image > img {
-    max-width: 100%;
-    max-height: 100px;
-    width: 80%;
-    display: block;
-    float: left;
-    
-  
-  <<<<<<< HEAD
-    padding: 60 px; -->
-  
-=======
->>>>>>> 9f0d1a49ee359ddc2f5f11c929dbc176f4944a36
   }
   .location-image {
     width: 100%;
 
 }
-.main-location-title {
+main .location-title {
   text-align: center;
   font-size: 50px;
   font-family: 'Cormorant Garamond', serif;
@@ -564,9 +141,7 @@ padding-top: 0px;
 margin-top: 40px;
 }
 
-.locations-image 
-<!-- > img  -->
-{
+.locations-image > img {
   max-width: 100%;
   max-height: 100px;
   width: 80%;
@@ -574,19 +149,7 @@ margin-top: 40px;
   float: left;
   padding: 60 px;
 
-
 }
-.locations-hours-box 
-<!-- > hours of operation  -->
-{
-  max-width: 10%;
-  width: 10px
-  max-height: 100px;
-  width: 80%;
-  display: block;
-  float: right;
-  padding: 60 px;
-  
 
 .locations-container {
   background-color: #31cbdc;
@@ -595,23 +158,6 @@ margin-top: 40px;
   margin: auto 0;
   padding: 60 px;
 
-}
-.location-title {
-  text-align: center;
-  font-size: 50px;
-  font-family: 'Cormorant Garamond', serif;
-  color: black;
-  padding-top: 20px;
-}
-
-
-.location-info {
-  font-family: 'Cormorant Garamond', serif;
-  text-align: center;
-
-}
-.location-hours li {
-  list-style-type: none;
 }
 .location-container > .text {
   background-color: blue;
@@ -655,10 +201,10 @@ margin-top: 40px;
   justify-content: space-between;
 }
 
-<!-- .location-container > .image {
+.location-container > .image {
   flex: 1 0 10%;
   text-align:right;    
-}  -->
+}
 
   
   
@@ -754,7 +300,6 @@ margin-top: 40px;
     text-decoration: none;
     color: black;
   }
->>>>>>> d66c52bf29346b08b8eadd4fddf5485832236d20
   .footwrap {
    display: block; 
     text-align: center;
@@ -776,7 +321,7 @@ margin-top: 40px;
   }
   .map box {
     position: relative; 
-    allign-items: center;
+    align-items: center;
     margin: 40 auto; 
     padding-left: 40px; 
     width: 600px; 
@@ -996,16 +541,7 @@ margin-top: 40px;
     font-size: 1.25rem;
     padding-top: 5px;
   }
-<<<<<<< HEAD
-<<<<<<< HEAD
-
- 
-  
-=======
-  .testimonials {
-=======
   .testimonials-main {
->>>>>>> bf58a653547d2f0737b6c7778031388c649868a0
     font-family: 'Cormorant Garamond', serif;
     text-align: center;
     font-size: 1.25rem;
@@ -1053,4 +589,3 @@ margin-top: 40px;
       transform: scale(1.05)
     }
   }  
->>>>>>> d66c52bf29346b08b8eadd4fddf5485832236d20
