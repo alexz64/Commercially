@@ -233,6 +233,7 @@ margin-top: 40px;
   .contact-hours  {
     list-style-type: none;
     text-align: center;
+    padding: 7px;
   }
   
   .contact-phone {
