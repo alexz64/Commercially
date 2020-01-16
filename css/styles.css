@@ -529,7 +529,7 @@ margin-top: 40px;
     font-size: 1.25rem;
     padding-top: 5px;
   }
-  .testimonials {
+  .testimonials-main {
     font-family: 'Cormorant Garamond', serif;
     text-align: center;
     font-size: 1.25rem;
@@ -537,17 +537,7 @@ margin-top: 40px;
     margin-top: -11rem;
   
   }
-  
-  .T {
-    display: inline-block;
-    width: 15rem;
-    padding: 1rem;
-    background-color: #00adb5;
-    margin: 1rem 0;
-    color: #eee;
-    font-style: 1.4rem;
-    transition: all .5s;
-  }
+
   .T_Person {
     color: #333;
   }
